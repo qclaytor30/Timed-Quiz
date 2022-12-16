@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>High Scores</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="assets/js/quiz.js"></script>
+    <script defer src="assets/js/script.js"></script>
 </head>
 <body>
 <div class="header">
@@ -14,9 +16,9 @@
 </div>
 <div class="main">
     <h1>High Scores</h1>
-    <div></div>
-    <button class="btn" onclick= "window.location.href='./index.html'">Restart</button>
+    <b onclick="populateHighScores()">CLICK TO SHOW</b>
+    <div id="highscores-list"> </div>
+    <button class="btn" onclick= "window.location.href='./index.html'">Start Over</button>
 </div>
 </body>
-
 </html>
