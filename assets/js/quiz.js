@@ -1,7 +1,7 @@
 const quizQuestions = [
     {
         question:'Which one of the following also known as Conditional Expression:',
-        answerArray:
+        answersArray:
             [
             { answer:'Alternative to if-else', correct: false},
             { answer:'Switch statement', correct: false},
@@ -11,7 +11,7 @@ const quizQuestions = [
     },
     {
         question: 'In JavaScript, what is a block of statement?',
-        answerArray:
+        answersArray:
         [
             { answer: 'Conditional block', correct: false},
             { answer: 'block that combines a number of statements into a single compound statement', correct: true},
@@ -21,7 +21,7 @@ const quizQuestions = [
     },
     {
         question:'When interpreter encounters an empty statements, what it will do:',
-        answerArray:
+        answersArray:
         [
             { answer: 'Shows a warning', correct: false},
             { answer: 'Prompts to complete the statement', correct: false},
@@ -31,7 +31,7 @@ const quizQuestions = [
     },
     {
         question: 'The "function" and " var" are known as:',
-        answerArray:
+        answersArray:
         [
             { answer: 'Keywords', correct: false},
             { answer: 'Data types', correct: false},
@@ -41,7 +41,7 @@ const quizQuestions = [
     },
     {
         question: 'Which one of the following is the correct way for calling the JavaScript code?',
-        answerArray:
+        answersArray:
         [
             { answer: 'Preprocessor', correct: false},
             { answer: 'Triggering event', correct: false},
